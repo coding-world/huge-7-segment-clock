@@ -13,11 +13,11 @@ Hardware:
 
 ### Elektronischer Aufbau
 
-![Elektronischer Aufbau mit den Verschiedenen Verbindungen für die Arduino Wanduhr](schaltplan.png)
+![Elektronischer Aufbau mit den Verschiedenen Verbindungen für die Arduino Wanduhr](img/schaltplan.png)
 
 Steckverbindungen:
 
-![Steckplatinen Aufbau mit den Verschiedenen Verbindungen für die Arduino Wanduhr](steckplatne.png)
+![Steckplatinen Aufbau mit den Verschiedenen Verbindungen für die Arduino Wanduhr](img/steckplatine.png)
 
 
 | Verbindunge Arduino | Verbindungen Elektronische Komponenten |
@@ -37,4 +37,21 @@ Steckverbindungen:
 
 
 ### Ein 7-Segment-Display mit den WS1212b bauen
+
+Ein 7-Segment-Display besteht vereinfacht gesagt aus 7 verschieden "Streifen" aus denen alle Zahlen von 0-9 aus unserem Zahlensystem einfach dargestellt werden können. Wie die einzelnen Zahlen ausseht, seht ihr hier:
+
+![7-Segment-Display aufbau mit den verschiedenen Zahlen](img/Seven_segment_display-gallery.png)
+
+Bild Quelle:
+https://commons.wikimedia.org/wiki/File:Seven_segment_display-gallery.png
+
+Genau das können wir auch mit den WS2812B Stripes nachbauen und das sieht dann ungefähr so aus:
+
+![7-Segment-Display aus WS2812B](img/eine-7-segment-display.jpg)
+
+Wichtig ist hierbei das bei jedem Steifen Din (Data in) mit dem voherigen Dout (Data out) verbunden wird. So ist jewals ein 7-Segment-Display ein langer verbundener LED Stripe. Diese Verbidung lassen sich mittels Löten herstellen. Dafür ist es am besten wenn die LED Stripes in einem 90° Winkel legen. Deswegen messt zuerst welche Längen von Streifen einen 90° Winkel erzeugen bevor ihr euch für die Größe Entscheidet. Eine gutes Beispiel ist diese Verbindung:
+
+![7-Segment-Display aus WS2812B](img/verbindung-sieben-segment-display.jpg)
+
+
 
